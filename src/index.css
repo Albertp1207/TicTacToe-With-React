@@ -1,0 +1,35 @@
+#board {
+  margin: 0 auto;
+  background-color: rgb(131, 138, 124);
+  flex-direction: column;
+  justify-content:space-around;
+  display:flex;
+  width: 300px;
+  height: 300px;
+}
+.boardRow {
+  display: flex;
+  justify-content:space-around;
+}
+.square {
+  background-color: rgb(240, 230, 230);
+  border:1px solid;
+  width:90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  font-size: 37px;
+  font-weight: bold;
+  align-items: center;
+}
+
+#hisUl{
+  width: 300px;
+  margin: 20px auto;
+  background-color: antiquewhite;
+}
+#hisUl li{
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
